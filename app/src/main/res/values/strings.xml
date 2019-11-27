@@ -1,3 +1,34 @@
 <resources>
-    <string name="app_name">VaccinApp</string>
+    <!-- General String values -->
+    <string name="app_name">VaxInfo</string>
+
+    <!-- Activity: Main Activity (Patient Info) -->
+    <string name="main_title">Patiënt Info</string>
+    <string name="main_info">Gelieve de benodigde info van de patiënt in te geven alvorens verder te gaan.</string>
+
+    <!-- Input fields -->
+    <string name="patient_dob">Geboortedatum</string>
+    <string name="patient_dob_hint">Geboortedatum patiënt</string>
+    <string name="patient_riskgroup">In risicogroep</string>
+    <string name="button_proceed">Ga verder</string>
+
+    <!-- Error messages -->
+    <string name="dob_empty">Gelieve een geboortedatum in te vullen!</string>
+    <string name="dob_invalid">Ongeldige geboortedatum ingevuld</string>
+
+    <!-- // END Main Activity -->
+
+
+    <!-- Activity: Patient Given Vaccins -->
+    <string name="given_vaccins_title">Reeds toegediende vaccins</string>
+    <string name="given_vaccins_info">Gelieve in onderstaande lijst alle vaccins aan te duiden die de patiënt reeds heeft ontvangen.</string>
+
+    <!-- // END Patient Given Vaccins -->
+
+
+    <!-- General Error Messages -->
+    <string name="unknown_error">Er heeft zich een fout voorgedaan!</string>
+
+    <!-- // END General Error Messages -->
+
 </resources>
